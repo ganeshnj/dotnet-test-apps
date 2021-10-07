@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA9F92D6-7ED1-4D99-AFD7-FA1C1EEE33DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity", "src\ContosoUniversityWeb\ContosoUniversity.csproj", "{2ABB476F-53C7-43C8-815E-8C94D2FA406B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherReactSpa", "src\WeatherReactSpa\WeatherReactSpa.csproj", "{20A6B70A-A659-4FEF-993D-ED7743A47A28}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm", "src\BlazorWasm\BlazorWasm.csproj", "{34E8859D-34A9-461F-80BC-1C0528D6A155}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcWebApplication", "src\MvcWebApplication\MvcWebApplication.csproj", "{5B711A69-B41F-4ECE-943D-CF2AA156BB24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2ABB476F-53C7-43C8-815E-8C94D2FA406B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2ABB476F-53C7-43C8-815E-8C94D2FA406B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2ABB476F-53C7-43C8-815E-8C94D2FA406B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2ABB476F-53C7-43C8-815E-8C94D2FA406B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20A6B70A-A659-4FEF-993D-ED7743A47A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20A6B70A-A659-4FEF-993D-ED7743A47A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20A6B70A-A659-4FEF-993D-ED7743A47A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,14 +25,18 @@ Global
 		{34E8859D-34A9-461F-80BC-1C0528D6A155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E8859D-34A9-461F-80BC-1C0528D6A155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E8859D-34A9-461F-80BC-1C0528D6A155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B711A69-B41F-4ECE-943D-CF2AA156BB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B711A69-B41F-4ECE-943D-CF2AA156BB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B711A69-B41F-4ECE-943D-CF2AA156BB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B711A69-B41F-4ECE-943D-CF2AA156BB24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2ABB476F-53C7-43C8-815E-8C94D2FA406B} = {BA9F92D6-7ED1-4D99-AFD7-FA1C1EEE33DA}
 		{20A6B70A-A659-4FEF-993D-ED7743A47A28} = {BA9F92D6-7ED1-4D99-AFD7-FA1C1EEE33DA}
 		{34E8859D-34A9-461F-80BC-1C0528D6A155} = {BA9F92D6-7ED1-4D99-AFD7-FA1C1EEE33DA}
+		{5B711A69-B41F-4ECE-943D-CF2AA156BB24} = {BA9F92D6-7ED1-4D99-AFD7-FA1C1EEE33DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E4ACFF5-75E5-4D9E-B484-B0186AF270D6}
